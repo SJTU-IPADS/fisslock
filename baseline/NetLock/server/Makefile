@@ -1,0 +1,9 @@
+
+NETLOCK_SERVER_SRC := $(NETLOCK_SERVER_DIR)/main.cc
+NETLOCK_SERVER_BIN := $(BUILD_DIR)/server_netlock
+
+
+$(NETLOCK_SERVER_BIN): $(NETLOCK_SERVER_DIR)/main.cc $(LIB_OBJ) $(HEADERS)
+	@mkdir -p $(BUILD_DIR)
+	$(CXX) $< $(LIB_OBJ) -o $@ $(CFLAGS) $(LDFLAGS)
+	

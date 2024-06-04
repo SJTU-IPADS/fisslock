@@ -1,0 +1,13 @@
+[submodule "vendor/rib"]
+	path = vendor/rib
+	url = https://ipads.se.sjtu.edu.cn:1312/weixd/rib
+[submodule "vendor/r2"]
+	path = vendor/r2
+	url = https://ipads.se.sjtu.edu.cn:1312/weixd/r2
+	branch = master
+[submodule "vendor/hiredis"]
+	path = vendor/hiredis
+	url = https://github.com/redis/hiredis
+[submodule "vendor/redlock-cpp"]
+	path = vendor/redlock-cpp
+	url = https://github.com/jacket-code/redlock-cpp/

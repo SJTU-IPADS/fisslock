@@ -1,0 +1,47 @@
+build/
+tpcc_lock_gen/main
+tatp_lock_gen/main
+*/tmp
+timer_parser/timer_parser
+*.o
+.vscode/
+*.aux
+*.log
+p.pdf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.out
+*.mk
+*.order
+*.symvers
+target/
+.tmp_versions/
+*.ko
+*.mod.c
+*.cmd
+*.lock
+__pycache__
+
+# Control plane build files
+switch/control/Makefile.in
+switch/control/Makefile
+switch/control/.deps
+
+# log file of dpdk
+log
+
+# experiment data
+traces/
+netlock_map/
+netlock_len_in_switch/
+netlock_lock_freq/
+tests/plot/input
+tests/plot/output
+
+# TLA toolbox
+*.toolbox
+
+*main
