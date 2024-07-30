@@ -25,7 +25,7 @@ processing power of programmable switches with minimal requirement of switch mem
 to efficient management of million-scale locks. 
 
 More details can be found in our paper:
-[Fast and Scalable In-network Lock Management Using Lock Fission (OSDI'24)]().
+[Fast and Scalable In-network Lock Management Using Lock Fission (OSDI'24)](https://ipads.se.sjtu.edu.cn/_media/publications/fisslock-osdi24.pdf).
 
 If you intend to use FissLock in your research, please cite our paper:
 
